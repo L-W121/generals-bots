@@ -6,7 +6,7 @@ npc = RandomAgent()
 
 # Initialize grid factory
 grid_factory = GridFactory(
-    mode="uniform",  # alternatively "generalsio", which will override other parameters
+    mode="generalsio",  # alternatively "generalsio", which will override other parameters
     min_grid_dims=(15, 15),  # Grid height and width are randomly selected
     max_grid_dims=(23, 23),
     mountain_density=0.2,  # Expected percentage of mountains
